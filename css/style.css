@@ -1,0 +1,102 @@
+
+
+
+.container {
+	width:80%;
+	margin:0 auto;
+}
+.calculator { /*the calculator division */
+	border-radius: 30px;
+	box-shadow: 15px 16px 35px;
+	margin:0 auto;
+	margin-top:100px;
+	width:536px;
+	display:grid;
+	grid-template-columns: 400px 135px;
+	grid-template-rows: 175px 365px 105px;
+	background-color: #b1a9a9;
+	
+}
+.screen{ /* the screen division */
+	padding-top:70px;
+	padding-left:18px;
+	font-size:60px;
+	grid-column-start:1;
+	grid-column-end:3;
+	grid-row-start:1;
+	grid-row-end:2;
+	background-color:#1f6331;
+	border-radius: 30px;
+	text-align: left;
+	line-height: 90px;
+	color:white;
+
+
+}
+.numbers{ /*the numbers buttons division */
+	grid-column-start:1;
+	grid-column-end:2;
+	grid-row-start:2;
+	grid-row-end: 3;
+	width:100%;	
+	}
+.number:last-child {
+	width:355px;
+	text-align: center;
+}
+.number { /*the actuall number button */
+	width:90px;
+	height:50px;
+	padding:10px;
+	background-color: #1c8bd2;
+	color:white;
+	float:left;
+	text-align: center;
+	line-height:50px;
+	display:inline-block;
+	font-size:40px;
+	border-radius:30px;
+	margin:10px;
+}
+.number:hover,.sign:hover,.bottom-button:hover {
+	background-color: #f009;
+}
+.signs {  /*the signs division */
+	grid-column-start:2;
+	grid-column-end:2;
+	grid-row-start:2;
+	grid-row-end:3;
+}
+.sign{  /*the actual sign button */
+	width:90px;
+	height:50px;
+	padding:10px;
+	background-color:#1381ad;
+	color:white;
+	float:left;
+	text-align: center;
+	line-height:50px;
+	display:inline-block;
+	font-size:30px;
+	border-radius:30px;
+	margin:10px;
+}
+.equal {  /*the equal and clear button divisoin */
+	grid-column-start:1;
+	grid-column-end:3;
+	grid-row-start:3;
+	grid-row-end:4;
+}
+.bottom-button {  /*the actual equal  and clear buttons */
+	float:left;
+	width:250px;
+	height:90px;
+	display:inline-block;
+	border-radius:30px;
+	background-color:#228fd4;
+	line-height:88px;
+	text-align: center;
+	font-size:32px;
+	color:white;
+	margin:8px;
+}
